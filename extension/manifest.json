@@ -10,10 +10,6 @@
       "matches": [ "http://www.redmine.org/issues/*" ]
    } ],
 
-  "permissions": [
-      "http://www.redmine.org/issues/*"
-  ],
-
   "web_accessible_resources": [
       "issues.css"
   ],
