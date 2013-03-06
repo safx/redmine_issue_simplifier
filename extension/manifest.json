@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Redmine Issue View Simplifier",
+  "description": "Make history list simpler in issue views of Redmine.",
+  "version": "0.0.1",
+
+  "content_scripts": [ {
+      "js": [ "thirdparty/jquery-1.9.0.min.js", "issues.js" ],
+      "matches": [ "http://www.redmine.org/issues/*" ]
+   } ],
+
+  "permissions": [
+      "http://www.redmine.org/issues/*"
+  ],
+
+  "web_accessible_resources": [
+      "issues.css"
+  ],
+
+  "icons": {
+    "128": "img/icon128.png"
+  }
+}
